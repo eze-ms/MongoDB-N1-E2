@@ -1,0 +1,99 @@
+// Cliente
+{
+  "_id": {
+    "$oid": "67878cde14cee75b8bc64b5f"
+  },
+  "name": "Carlos Peña",
+  "email": "juan.perez@example.com",
+  "phone": "678912345",
+  "address": {
+    "street": "Calle Falsa",
+    "number": 456,
+    "floor": 2,
+    "door": "A",
+    "city": "Madrid",
+    "postalCode": "28001",
+    "country": "España"
+  },
+  "registerDate": {
+    "$date": "2025-01-15T10:24:30.121Z"
+  },
+  "recommenderId": {
+    "$oid": "67878cde14cee75b8bc64b5e"
+  }
+}
+
+// Gafas
+{
+  "_id": {
+    "$oid": "67878cde14cee75b8bc64b5d"
+  },
+  "brand": "Ray-Ban",
+  "rightLensPower": -2.5,
+  "leftLensPower": -2.5,
+  "rightLensColor": "blue",
+  "leftLensColor": "blue",
+  "frameType": "metal",
+  "frameColor": "gold",
+  "price": 150,
+  "supplierId": {
+    "$oid": "67878cde14cee75b8bc64b5c"
+  },
+  "clients": [
+    {
+      "$oid": "67878cde14cee75b8bc64b5f"
+    }
+  ]
+}
+
+// Empleado
+{
+  "_id": {
+    "$oid": "67878cde14cee75b8bc64b60"
+  },
+  "name": "Juan López",
+  "lastName": "García",
+  "phone": "612345678",
+  "hireDate": {
+    "$date": "2025-01-15T10:24:30.149Z"
+  }
+}
+
+// Proveedor
+{
+  "_id": {
+    "$oid": "67878cde14cee75b8bc64b5c"
+  },
+  "name": "Juan Pérez Muñoz",
+  "phone": "678912345",
+  "fax": "678912346",
+  "NIF": "45567890V",
+  "address": {
+    "street": "Calle Mayor",
+    "number": 123,
+    "floor": 3,
+    "door": "B",
+    "city": "Barcelona",
+    "postalCode": "08001",
+    "country": "España"
+  }
+}
+
+// Venta
+{
+  "_id": {
+    "$oid": "67878cde14cee75b8bc64b64"
+  },
+  "clientId": {
+    "$oid": "67878cde14cee75b8bc64b61"
+  },
+  "glassesId": {
+    "$oid": "67878cde14cee75b8bc64b62"
+  },
+  "employeeId": {
+    "$oid": "67878cde14cee75b8bc64b63"
+  },
+  "saleDate": {
+    "$date": "2025-01-15T10:24:30.171Z"
+  }
+}
