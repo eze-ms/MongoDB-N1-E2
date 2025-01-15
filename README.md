@@ -41,7 +41,7 @@ Este proyecto gestiona la base de datos de una óptica, permitiendo administrar 
 ## 🛠️ Instalación
 1. Clonar este repositorio:
    ```bash
-   git clone https://github.com/eze-ms/S2.03-N1-E1.git
+   git clone https://github.com/eze-ms/MongoDB_N1-E1.git
    ```
 2. Configurar la conexión a MongoDB en la clase correspondiente.
 
