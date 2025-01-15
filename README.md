@@ -96,7 +96,7 @@ This project offers a well-structured and efficient system for managing optical 
 ## 🛠️ Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/eze-ms/S2.03-N1-E2
+   git clone https://github.com/eze-ms/MongoDB_N1-E2
    ```
 2. Ensure MongoDB is running locally.
 3. Run the `Main.java` file to test the basic operations.
