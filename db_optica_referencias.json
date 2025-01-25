@@ -1,0 +1,50 @@
+{
+    "Glasses": [
+        {
+            "_id": {"$oid": "507f1f77bcf86cd799439012"},
+            "brand": "Rayban", 
+            "frameType": "metallic", 
+            "price": 105.75, 
+            "supplier_id": {"$oid": "507f1f77bcf86cd799439011"},
+            "client_id": {"$oid": "507f1f77bcf86cd799439013"} 
+        }
+    ],
+    "Suppliers": [
+        {
+            "_id": {"$oid": "507f1f77bcf86cd799439011"},
+            "name": "Googles Associate S.L",
+            "address": {
+                "street": "Major",
+                "number": "200",
+                "floor": "1",
+                "door": "A",
+                "city": "Barcelona",
+                "postalCode": "08001",
+                "country": "Spain"
+            },
+            "phone": "934567890",
+            "fax": "934567891",
+            "NIF": "A12345678"
+        }
+    ],
+    "Clients": [
+        {
+            "_id": {"$oid": "507f1f77bcf86cd799439013"},
+            "name": "Client 1", 
+            "address": "Right Street, 123",
+            "phone": "678912235", 
+            "email": "email@email.com", 
+            "registerDate": {"$date": "2023-09-23T00:00:00Z"} 
+        }
+    ],
+    "Sales": [
+        {
+            "_id": {"$oid": "507f1f77bcf86cd799439015"},
+            "client_id": {"$oid": "507f1f77bcf86cd799439013"},
+            "employee_id": {"$oid": "507f1f77bcf86cd799439016"},
+            "glasses_id": {"$oid": "507f1f77bcf86cd799439012"},
+            "saleDate": {"$date": "2023-09-23T12:00:00Z"},
+            "saleTime": "12:00"
+        }
+    ]
+}
