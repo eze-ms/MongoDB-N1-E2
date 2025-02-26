@@ -1,0 +1,68 @@
+{
+    "_id": { 
+        "$oid": "67864f3f2505546fd594b6e3" 
+    },
+    "brand": "Ray-Ban", 
+    "frame": {
+      "type": "Metallic",
+      "color": "Negro"
+    },
+    "provider": { 
+        "name": "Googles Associated SL",
+        "address": {
+            "street": "Calle Mayor",
+            "number": 10,
+            "city": "Barcelona",
+            "postal_code": "08001",
+            "country": "España"
+        },
+        "phone": "+34 123 456 789",
+        "fax": "+34 987 654 321",
+        "nif": "B12345678"
+    },
+    "price": 105.75, 
+    "lenses": {
+      "right_eye": {
+          "graduation": 1.5,
+          "color": "transparente"
+      },
+      "left_eye": {
+          "graduation": 1.75,
+          "color": "transparente"
+      }
+    },
+    "clients": [ 
+        {
+            "name": "Client 1",
+            "address": {
+                "street": "Avenida Central",
+                "number": 5,
+                "city": "Barcelona",
+                "postal_code": "08002",
+                "country": "España"
+            },
+            "phone": "+34 987 654 321",
+            "email": "client1@example.com",
+            "register_date": "2024-12-15T10:00:00.000Z",
+            "recommended_by": "Client 2"
+        },
+        {
+            "name": "Client 2",
+            "address": {
+                "street": "Calle Secundaria",
+                "number": 20,
+                "city": "Barcelona",
+                "postal_code": "08003",
+                "country": "España"
+            },
+            "phone": "+34 654 321 987",
+            "email": "client2@example.com",
+            "register_date": "2023-11-10T12:30:00.000Z",
+            "recommended_by": null
+        }
+    ],
+    "sold_by": { 
+      "employee": "Carlos Gómez", 
+      "sale_date": "2025-01-10T15:30:00.000Z" 
+    }
+  }
